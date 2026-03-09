@@ -48,7 +48,7 @@ def main():
 
     msgs = query_result.get("messages", [])
     if not msgs:
-      print("sleping while waiting for email...")
+      print("sleeping while waiting for email...")
       sleep(SLEEP)
       continue
 
